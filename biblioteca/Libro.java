@@ -14,6 +14,36 @@ public class Libro {
         this.prestado = false;
     }
 
+    // Getter para el título
+    public String getTitulo() {
+        return titulo;
+    }
+
+    // Setter para el título
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    // Getter para el autor
+    public String getAutor() {
+        return autor;
+    }
+
+    // Setter para el autor
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    // Getter para el estado de prestado
+    public boolean isPrestado() {
+        return prestado;
+    }
+
+    // Setter para el estado de prestado
+    public void setPrestado(boolean prestado) {
+        this.prestado = prestado;
+    }
+
     // Método para prestar el libro
     public void prestarLibro() {
         if (!prestado) {
